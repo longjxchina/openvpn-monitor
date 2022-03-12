@@ -554,12 +554,12 @@ class OpenvpnHtmlPrinter(object):
         output('<meta http-equiv="refresh" content="300" />')
 
         # css
-        output('<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha512-Dop/vW3iOtayerlYAqCgkVr2aTr2ErwwTYOvRFUpzl2VhCMJyjQF0Q9TjUXIo6JhuM/3i0vVEt2e/7QQmnHQqw==" crossorigin="anonymous" />')  # noqa
-        output('<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha512-iy8EXLW01a00b26BaqJWaCmk9fJ4PsMdgNRqV96KwMPSH+blO82OHzisF/zQbRIIi8m0PiO10dpS0QxrcXsisw==" crossorigin="anonymous" />')  # noqa
-        output('<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/css/theme.bootstrap_3.min.css" integrity="sha512-1r2gsUynzocV5QbYgEwbcNGYQeQ4jgHUNZLl+PMr6o248376S3f9k8zmXvsKkU06wH0MrmQacKd0BjJ/kWeeng==" crossorigin="anonymous" />')  # noqa
+        output('<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha512-Dop/vW3iOtayerlYAqCgkVr2aTr2ErwwTYOvRFUpzl2VhCMJyjQF0Q9TjUXIo6JhuM/3i0vVEt2e/7QQmnHQqw==" crossorigin="anonymous" />')  # noqa
+        output('<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha512-iy8EXLW01a00b26BaqJWaCmk9fJ4PsMdgNRqV96KwMPSH+blO82OHzisF/zQbRIIi8m0PiO10dpS0QxrcXsisw==" crossorigin="anonymous" />')  # noqa
+        output('<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/jquery.tablesorter/2.31.3/css/theme.bootstrap.min.css" integrity="sha512-1r2gsUynzocV5QbYgEwbcNGYQeQ4jgHUNZLl+PMr6o248376S3f9k8zmXvsKkU06wH0MrmQacKd0BjJ/kWeeng==" crossorigin="anonymous" />')  # noqa
         if self.maps:
-            output('<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" />')  # noqa
-            output('<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/2.0.0/Control.FullScreen.min.css" integrity="sha512-DRkMa+fn898M1uc6s9JZeztUoXN6viuHsXmh/pgz3jG6a77YWO3U3QYEjLoqbxOeclc2NunWfMTya4Y5twXAKA==" crossorigin="anonymous" />')  # noqa
+            output('<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" />')  # noqa
+            output('<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/leaflet.fullscreen/2.0.0/Control.FullScreen.min.css" integrity="sha512-DRkMa+fn898M1uc6s9JZeztUoXN6viuHsXmh/pgz3jG6a77YWO3U3QYEjLoqbxOeclc2NunWfMTya4Y5twXAKA==" crossorigin="anonymous" />')  # noqa
         output('<style>')
         output('.panel-custom {')
         output('   background-color:#777;')
@@ -573,12 +573,12 @@ class OpenvpnHtmlPrinter(object):
         output('</style>')
 
         # js
-        output('<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>')  # noqa
-        output('<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js" integrity="sha512-qzgd5cYSZcosqpzpn7zF2ZId8f/8CHmFKZ8j7mU4OUXTNRd5g+ZHBPsgKEwoqxCtdQvExE5LprwwPAgoicguNg==" crossorigin="anonymous"></script>')  # noqa
-        output('<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.widgets.min.js" integrity="sha512-dj/9K5GRIEZu+Igm9tC16XPOTz0RdPk9FGxfZxShWf65JJNU2TjbElGjuOo3EhwAJRPhJxwEJ5b+/Ouo+VqZdQ==" crossorigin="anonymous"></script>')  # noqa
-        output('<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/parsers/parser-network.min.js" integrity="sha512-13ZRU2LDOsGjGgqBkQPKQ/JwT/SfWhtAeFNEbB0dFG/Uf/D1OJPbTpeK2AedbDnTLYWCB6VhTwLxlD0ws6EqCw==" crossorigin="anonymous"></script>')  # noqa
-        output('<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/parsers/parser-duration.min.js" integrity="sha512-X7QJLLEO6yg8gSlmgRAP7Ec2qDD+ndnFcd8yagZkkN5b/7bCMbhRQdyJ4SjENUEr+4eBzgwvaFH5yR/bLJZJQA==" crossorigin="anonymous"></script>')  # noqa
-        output('<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha512-oBTprMeNEKCnqfuqKd6sbvFzmFQtlXS3e0C/RGFV0hD6QzhHV+ODfaQbAlmY6/q0ubbwlAM/nCJjkrgA3waLzg==" crossorigin="anonymous"></script>')  # noqa
+        output('<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>')  # noqa
+        output('<script src="https://cdn.bootcdn.net/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js" integrity="sha512-qzgd5cYSZcosqpzpn7zF2ZId8f/8CHmFKZ8j7mU4OUXTNRd5g+ZHBPsgKEwoqxCtdQvExE5LprwwPAgoicguNg==" crossorigin="anonymous"></script>')  # noqa
+        output('<script src="https://cdn.bootcdn.net/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.widgets.min.js" integrity="sha512-dj/9K5GRIEZu+Igm9tC16XPOTz0RdPk9FGxfZxShWf65JJNU2TjbElGjuOo3EhwAJRPhJxwEJ5b+/Ouo+VqZdQ==" crossorigin="anonymous"></script>')  # noqa
+        output('<script src="https://cdn.bootcdn.net/ajax/libs/jquery.tablesorter/2.31.3/js/parsers/parser-network.min.js" integrity="sha512-13ZRU2LDOsGjGgqBkQPKQ/JwT/SfWhtAeFNEbB0dFG/Uf/D1OJPbTpeK2AedbDnTLYWCB6VhTwLxlD0ws6EqCw==" crossorigin="anonymous"></script>')  # noqa
+        output('<script src="https://cdn.bootcdn.net/ajax/libs/jquery.tablesorter/2.31.3/js/parsers/parser-duration.min.js" integrity="sha512-X7QJLLEO6yg8gSlmgRAP7Ec2qDD+ndnFcd8yagZkkN5b/7bCMbhRQdyJ4SjENUEr+4eBzgwvaFH5yR/bLJZJQA==" crossorigin="anonymous"></script>')  # noqa
+        output('<script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha512-oBTprMeNEKCnqfuqKd6sbvFzmFQtlXS3e0C/RGFV0hD6QzhHV+ODfaQbAlmY6/q0ubbwlAM/nCJjkrgA3waLzg==" crossorigin="anonymous"></script>')  # noqa
         output('<script>$(document).ready(function(){')
         output('$("table.tablesorter").tablesorter({')
         output('sortList: [[0,0]], theme:"bootstrap", headerTemplate:"{content} {icon}", widgets:["uitheme"],')
@@ -586,9 +586,9 @@ class OpenvpnHtmlPrinter(object):
         output('});')
         output('});</script>')
         if self.maps:
-            output('<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>')  # noqa
-            output('<script src="//cdnjs.cloudflare.com/ajax/libs/OverlappingMarkerSpiderfier-Leaflet/0.2.6/oms.min.js" integrity="sha512-V8RRDnS4BZXrat3GIpnWx+XNYBHQGdK6nKOzMpX4R0hz9SPWt7fltGmmyGzUkVFZUQODO1rE+SWYJJkw3SYMhg==" crossorigin="anonymous"></script>')  # noqa
-            output('<script src="//cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/2.0.0/Control.FullScreen.min.js" integrity="sha512-c6ydt5Rypa1ptlnH2U1u+JybARYppbD1qxgythCI4pJ9EOfNYEWlLBjxBX926O3tq5p4Aw5GTY68vT0FdKbG3w==" crossorigin="anonymous"></script>')  # noqa
+            output('<script src="https://cdn.bootcdn.net/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>')  # noqa
+            output('<script src="https://cdn.bootcdn.net/ajax/libs/OverlappingMarkerSpiderfier-Leaflet/0.2.6/oms.min.js" integrity="sha512-V8RRDnS4BZXrat3GIpnWx+XNYBHQGdK6nKOzMpX4R0hz9SPWt7fltGmmyGzUkVFZUQODO1rE+SWYJJkw3SYMhg==" crossorigin="anonymous"></script>')  # noqa
+            output('<script src="https://cdn.bootcdn.net/ajax/libs/leaflet.fullscreen/2.0.0/Control.FullScreen.min.js" integrity="sha512-c6ydt5Rypa1ptlnH2U1u+JybARYppbD1qxgythCI4pJ9EOfNYEWlLBjxBX926O3tq5p4Aw5GTY68vT0FdKbG3w==" crossorigin="anonymous"></script>')  # noqa
 
         output('</head><body>')
 
